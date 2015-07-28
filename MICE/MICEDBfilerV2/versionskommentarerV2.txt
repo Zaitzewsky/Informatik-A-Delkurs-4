@@ -1,0 +1,32 @@
+2014-01-07
+Versionskommentarer MICEDB (v2)
+
+Förändringarna innebär att databasen nu bättre överensstämmer med verksamhetens krav (se nedan). Om utvecklingsteamet jobbat sig runt problemen nedan med hjälp av javakod finns inget absolut krav på att byta ut databasen. I annat fall skall denna version av databasen användas för den fortsatta implementationen. Förändringarna är redan genomförda i de bifogade filerna MICEDB.fdb samt MICEDB.sql. (Inga förändringar är alltså gjorda i datafilen MICEDBInserts.sql.)
+
+**************************************************
+
+Följande förändringar har gjorts i tabellens DDL-script (MICEDB.sql):
+
+-------------------------
+
+Förändring (borttag av "cascade on delete"):
+
+ALTER TABLE SPELPROJEKT ADD
+  FOREIGN KEY (AID) REFERENCES PROJEKTLEDARE (AID);
+
+Kommentar:
+Borttag av ett spelprojekt innebär nu inte längre att projektledaren automatsikt försvinner ur systemet.
+
+-------------------------
+
+Tillägg (tillägg av främmande nycklar enligt följande):
+
+ALTER TABLE SPECIALIST ADD
+  FOREIGN KEY (AID) REFERENCES ANSTALLD (AID) ON DELETE CASCADE;
+
+ALTER TABLE PROJEKTLEDARE ADD
+  FOREIGN KEY (AID) REFERENCES ANSTALLD (AID) ON DELETE CASCADE;
+
+Kommentar:
+Borttag av en anställd innebär nu att motsvarande specialist och/eller projektledare tas bort automatiskt.  
+------------------------

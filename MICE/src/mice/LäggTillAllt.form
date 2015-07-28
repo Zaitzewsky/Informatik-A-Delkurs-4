@@ -1,0 +1,2545 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Spelutvecklingsprojekt">
+                <Property name="tabTitle" type="java.lang.String" value="Spelutvecklingsprojekt"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="L&#xe4;gg till">
+                    <Property name="tabTitle" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblLaggTillBeteckning" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLaggTillStartdatum" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblProjektledare" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLaggTillSpecialist" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLaggTillPlattformar" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLaggTillReleasedatum" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="cbLaggTillSpecialister" max="32767" attributes="0"/>
+                                              <Component id="cbLaggTillPlattformar" max="32767" attributes="0"/>
+                                              <Component id="cbLaggTillProjektledare" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="btnLaggTillTaBortProjektledare" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnLaggTillTaBortSpecialist" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnLaggTillTaBortPLattformar" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="btnLaggTillPlattformar" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnLaggTillSpecialist" min="-2" max="-2" attributes="0"/>
+                                              <Component id="btnLaggTillProjektledare" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtLaggTillProjektledare" max="32767" attributes="0"/>
+                                              <Component id="cbLaggTillTillagdaPlattformar" pref="113" max="32767" attributes="0"/>
+                                              <Component id="cbLaggTillTillagdaSpecialister" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="txtLaggTillBeteckning" min="-2" pref="336" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="lblLaggTillMinMaxBeteckning" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jDateChooserStartdatumProjekt" min="-2" pref="131" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="lblFelmeddelandeStartdatumProjektLaggTill" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="0" pref="220" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="185" pref="612" max="32767" attributes="0"/>
+                                          <Component id="btnLaggTillProjekt" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="lblFelmeddelandeSpecialisterProjektLaggTill" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="lblFelmeddelandeProjektledareProjektLaggTill" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblFelmeddelandePlattformarProjektLaggTill" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jDateChooserReleasedatumProjekt" min="-2" pref="131" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandeReleasedatumProjektLaggTill" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="lblLaggTillBeteckning" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtLaggTillBeteckning" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblLaggTillMinMaxBeteckning" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="lblLaggTillStartdatum" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="lblFelmeddelandeStartdatumProjektLaggTill" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="jDateChooserStartdatumProjekt" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="lblLaggTillReleasedatum" min="-2" max="-2" attributes="0"/>
+                              <Component id="jDateChooserReleasedatumProjekt" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeReleasedatumProjektLaggTill" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblProjektledare" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbLaggTillProjektledare" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillTaBortProjektledare" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillProjektledare" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtLaggTillProjektledare" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeProjektledareProjektLaggTill" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cbLaggTillSpecialister" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillTaBortSpecialist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillSpecialist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLaggTillSpecialist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbLaggTillTillagdaSpecialister" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeSpecialisterProjektLaggTill" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnLaggTillTaBortPLattformar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillPlattformar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbLaggTillPlattformar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLaggTillPlattformar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbLaggTillTillagdaPlattformar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandePlattformarProjektLaggTill" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="263" max="32767" attributes="0"/>
+                          <Component id="btnLaggTillProjekt" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblLaggTillBeteckning">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Beteckning:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtLaggTillBeteckning">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblLaggTillMinMaxBeteckning">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="min 1 - max 20 bokst&#xe4;ver"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblLaggTillStartdatum">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Startdatum:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblLaggTillReleasedatum">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Releasedatum:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblProjektledare">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Projektledare:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblLaggTillSpecialist">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Specialister:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbLaggTillSpecialister">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbLaggTillTillagdaSpecialister">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillTaBortSpecialist">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillTaBortSpecialistMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillSpecialist">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillSpecialistMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblLaggTillPlattformar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Plattformar:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillTaBortPLattformar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillTaBortPLattformarMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillPlattformar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillPlattformarMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbLaggTillPlattformar">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbLaggTillTillagdaPlattformar">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbLaggTillProjektledare">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillTaBortProjektledare">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillTaBortProjektledareMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillProjektledare">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillProjektledareMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtLaggTillProjektledare">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillProjekt">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillProjektMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="com.toedter.calendar.JDateChooser" name="jDateChooserStartdatumProjekt">
+                  <Properties>
+                    <Property name="dateFormatString" type="java.lang.String" value="dd.MM.yyyy"/>
+                  </Properties>
+                </Component>
+                <Component class="com.toedter.calendar.JDateChooser" name="jDateChooserReleasedatumProjekt">
+                  <Properties>
+                    <Property name="dateFormatString" type="java.lang.String" value="dd.MM.yyyy"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeStartdatumProjektLaggTill">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeReleasedatumProjektLaggTill">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeProjektledareProjektLaggTill">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeSpecialisterProjektLaggTill">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandePlattformarProjektLaggTill">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Uppdatera">
+                    <Property name="tabTitle" type="java.lang.String" value="Uppdatera"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel9" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel9">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="53" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblUppdateraReleasedatum" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUppdateraProjektledare" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUppdateraSpecialist" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUppdateraPlattformar" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="lblUppdateraStartdatum" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Component id="lblVäljProjektUppdatera" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblUppdateraBeteckning" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="jDateChooserStartdatumUppdateraProjekt" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jDateChooserReleasedatumUppdateraProjekt" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="cbUppdateraSpecialister" alignment="0" pref="139" max="32767" attributes="0"/>
+                                          <Component id="cbUppdateraProjektledare" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="cbUppdateraPlattformar" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                              <Component id="lblAktuelltReleasedatumUppdateraResultat" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="btnUppdateraPlattformarTaBort" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="btnUppdateraPlattformarLäggTill" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="btnUppdateraProjektledareTaBort" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="btnUppdateraProjektledareLäggTill" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="btnUppdateraSpecialistTaBort" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="btnUppdateraSpecialistLäggTill" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="lblAktuelltStartdatumUppdateraResultat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="cbUppdateraPlattformarTillagda" min="-2" pref="113" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="btnUppdateraPlattformarProjekt" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="lblAktuellaPlattformarUppdatera" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="cbAktuellaPlattformarUppdatera" min="-2" pref="109" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="cbUppdateraSpecialisterTillagda" min="-2" pref="113" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="btnUppdateraSpecialisterProjekt" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="lblAktuellaSpecialisterUppdatera" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="cbAktuellaSpecialisterUppdatera" min="-2" pref="110" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Component id="btnUppdateraStartdatumProjekt" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="txtUppdateraProjektledareProjekt" min="-2" pref="113" max="-2" attributes="0"/>
+                                                          <Component id="btnUppdateraReleasedatumProjekt" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="btnUppdateraProjektledareProjekt" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="0" pref="146" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="txtUppdateraBeteckning" min="-2" pref="336" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblUppdateraMinMaxBokstäver" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                              <Component id="btnUppdateraBeteckningProjekt" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                              <Component id="cbVäljProjektUppdatera" min="-2" pref="336" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="btnVäljProjektUppdatera" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnTaBortHeltProjekt" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblVäljProjektUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbVäljProjektUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnVäljProjektUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtUppdateraBeteckning" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUppdateraBeteckning" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUppdateraMinMaxBokstäver" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraBeteckningProjekt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="12" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblAktuelltStartdatumUppdateraResultat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblUppdateraStartdatum" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jDateChooserStartdatumUppdateraProjekt" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="btnUppdateraStartdatumProjekt" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jDateChooserReleasedatumUppdateraProjekt" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblUppdateraReleasedatum" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblAktuelltReleasedatumUppdateraResultat" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraReleasedatumProjekt" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtUppdateraProjektledareProjekt" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraProjektledareLäggTill" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraProjektledareTaBort" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbUppdateraProjektledare" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUppdateraProjektledare" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraProjektledareProjekt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbUppdateraSpecialisterTillagda" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraSpecialistLäggTill" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraSpecialistTaBort" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbUppdateraSpecialister" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUppdateraSpecialist" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAktuellaSpecialisterUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbAktuellaSpecialisterUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraSpecialisterProjekt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblUppdateraPlattformar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbUppdateraPlattformar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraPlattformarTaBort" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraPlattformarLäggTill" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbUppdateraPlattformarTillagda" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAktuellaPlattformarUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbAktuellaPlattformarUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnUppdateraPlattformarProjekt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnTaBortHeltProjekt" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraBeteckning">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Beteckning:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtUppdateraBeteckning">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraMinMaxBokst&#xe4;ver">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="min 1 - max 20 bokst&#xe4;ver"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraStartdatum">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Startdatum:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraReleasedatum">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Releasedatum:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraProjektledare">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Projektledare:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraSpecialist">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Specialister:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUppdateraSpecialister">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUppdateraSpecialisterTillagda">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraSpecialistTaBort">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraSpecialistTaBortMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraSpecialistL&#xe4;ggTill">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="+"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraSpecialistL&#xe4;ggTillMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraPlattformar">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Plattformar:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraPlattformarTaBort">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraPlattformarTaBortMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraPlattformarL&#xe4;ggTill">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="+"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraPlattformarL&#xe4;ggTillMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUppdateraPlattformar">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUppdateraPlattformarTillagda">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUppdateraProjektledare">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraProjektledareTaBort">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraProjektledareTaBortMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraProjektledareL&#xe4;ggTill">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="+"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraProjektledareL&#xe4;ggTillMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtUppdateraProjektledareProjekt">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblAktuellaSpecialisterUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Aktuella specialister:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbAktuellaSpecialisterUppdatera">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblV&#xe4;ljProjektUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Projekt:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbV&#xe4;ljProjektUppdatera">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnV&#xe4;ljProjektUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="V&#xe4;lj"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnV&#xe4;ljProjektUppdateraMouseClicked"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnV&#xe4;ljProjektUppdateraActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblAktuellaPlattformarUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Aktuella plattformar:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbAktuellaPlattformarUppdatera">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblAktuelltStartdatumUppdateraResultat">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblAktuelltReleasedatumUppdateraResultat">
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraBeteckningProjekt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraBeteckningProjektMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="com.toedter.calendar.JDateChooser" name="jDateChooserStartdatumUppdateraProjekt">
+                      <Properties>
+                        <Property name="dateFormatString" type="java.lang.String" value="dd.MM.yyyy"/>
+                      </Properties>
+                    </Component>
+                    <Component class="com.toedter.calendar.JDateChooser" name="jDateChooserReleasedatumUppdateraProjekt">
+                      <Properties>
+                        <Property name="dateFormatString" type="java.lang.String" value="dd.MM.yyyy"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraStartdatumProjekt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraStartdatumProjektMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraReleasedatumProjekt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraReleasedatumProjektMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraProjektledareProjekt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraProjektledareProjektMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraSpecialisterProjekt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraSpecialisterProjektMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnUppdateraPlattformarProjekt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUppdateraPlattformarProjektMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnTaBortHeltProjekt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ta bort helt"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortHeltProjektMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Anst&#xe4;lld">
+                <Property name="tabTitle" type="java.lang.String" value="Anst&#xe4;lld"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="L&#xe4;gg till">
+                    <Property name="tabTitle" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblStepTwo" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblStepOne" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="223" max="-2" attributes="0"/>
+                                          <Component id="btnConfirmNewEmp" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="lblCompAreas" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="lblPlatformKnowledge" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="lblLevelComp" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="lblAddEmpName" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="lblAddEmpMail" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="lblAddEmpPhone" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtPhone" max="32767" attributes="0"/>
+                                              <Component id="txtNewName" alignment="0" max="32767" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="txtMail" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="cbPlatChoice" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="cbCompAreas" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="cbLevelPlattform" alignment="0" pref="137" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="btnTaBortNivåLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                                  <Component id="btnLaggTillNivåLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                                  <Group type="102" attributes="0">
+                                                                      <Component id="btnTaBortKompetensLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                                      <Component id="btnLaggTillKompetensLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                                  <Group type="102" attributes="0">
+                                                                      <Component id="btnTaBortPlattformLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                                                      <EmptySpace max="32767" attributes="0"/>
+                                                                      <Component id="btnLaggTillPlattformLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                              </Group>
+                                                          </Group>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="txtEmpComp" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                                              <Component id="txtEmpPlat" min="-2" pref="153" max="-2" attributes="0"/>
+                                                              <Component id="txtEmpLevel" alignment="0" min="-2" pref="153" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="lblSnabelA" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txtMailNamn" min="-2" pref="85" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="lblPunkt" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txtPunktCom" min="-2" pref="49" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="lblFelmeddelandeEpostLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="jRadioProjektledare" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblFelmeddelandeNamnLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFelmeddelandeTelefonLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFelmeddelandeKompetensLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFelmeddelandePlattformarLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFelmeddelandeNivåLaggTillAnstalld" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="307" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="lblStepOne" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblAddEmpName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNewName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeNamnLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblAddEmpPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeTelefonLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblAddEmpMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblSnabelA" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMailNamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPunkt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtPunktCom" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeEpostLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="lblStepTwo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblCompAreas" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbCompAreas" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtEmpComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnTaBortKompetensLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillKompetensLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeKompetensLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cbPlatChoice" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPlatformKnowledge" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtEmpPlat" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnTaBortPlattformLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillPlattformLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandePlattformarLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cbLevelPlattform" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLevelComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtEmpLevel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnLaggTillNivåLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnTaBortNivåLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeNivåLaggTillAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jRadioProjektledare" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="81" max="32767" attributes="0"/>
+                          <Component id="btnConfirmNewEmp" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblStepOne">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Steg 1."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblAddEmpName">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Namn:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtNewName">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtPhone">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblAddEmpPhone">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Telefon:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtMail">
+                </Component>
+                <Component class="javax.swing.JButton" name="btnConfirmNewEmp">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnConfirmNewEmpMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblStepTwo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Steg 2."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblCompAreas">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Kompetensomr&#xe5;den:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblAddEmpMail">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="E-post:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbCompAreas">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbPlatChoice">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblPlatformKnowledge">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Plattformar:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblLevelComp">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Niv&#xe5;:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbLevelPlattform">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="5">
+                        <StringItem index="0" value="1"/>
+                        <StringItem index="1" value="2"/>
+                        <StringItem index="2" value="3"/>
+                        <StringItem index="3" value="4"/>
+                        <StringItem index="4" value="5"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtEmpComp">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtEmpPlat">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtEmpLevel">
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillKompetensLaggTillAnstalld">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillKompetensLaggTillAnstalldMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnTaBortKompetensLaggTillAnstalld">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortKompetensLaggTillAnstalldMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnTaBortPlattformLaggTillAnstalld">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortPlattformLaggTillAnstalldMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillPlattformLaggTillAnstalld">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillPlattformLaggTillAnstalldMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnTaBortNiv&#xe5;LaggTillAnstalld">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortNiv&#xe5;LaggTillAnstalldMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnLaggTillNiv&#xe5;LaggTillAnstalld">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillNiv&#xe5;LaggTillAnstalldMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSnabelA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="@"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtMailNamn">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMailNamnActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblPunkt">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtPunktCom">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPunktComActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeNamnLaggTillAnstalld">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeTelefonLaggTillAnstalld">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeEpostLaggTillAnstalld">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeKompetensLaggTillAnstalld">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandePlattformarLaggTillAnstalld">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeNiv&#xe5;LaggTillAnstalld">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRadioProjektledare">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Projektledare"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Uppdatera">
+                    <Property name="tabTitle" type="java.lang.String" value="Uppdatera"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel11" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel11">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+                                          <Component id="lblAssignProj" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblUpdName" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblUpdMail" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblEmpPicker" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblUpdPhone" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblBefintligEpost" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblUpdPlat" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lblUpdComp" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblUppdateraProjektledareUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblBefintligaKompetenser" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblNuvarandeStatus" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="txtUpdPhone" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtUpdName" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="cbUpdEmp" alignment="0" pref="363" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="txtUpdMail" pref="167" max="32767" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblSnabelAUppdatera" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtHotmailUppdatera" min="-2" pref="95" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblPunktCom" min="-2" pref="4" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txtPunktComUppdatera" min="-2" pref="73" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnChooseEmpToUpd" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="btnChangeName" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblFelmeddelandeUppdateraAnstalldNamn" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="btnChangePhone" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblFelmeddelandeUppdateraAnstalldTelefon" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="btnChangeMail" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblFelmeddelandeUppdateraAnstalldEpost" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Component id="lblBefintligMailUppdateraAnstalld" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="jRadioProjektledareUppdatera" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="jRadioUppdateraRollNej" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="btnÄndraRollAnstalld" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="cbUpdEmpProj" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="cbUpdPlat" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="cbUpdComp" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="cbBefintligaKompetenser" min="-2" pref="137" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="lblNuvarandeStatusResultat" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="btnVisaSpecifikKompetens" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                                                      <Component id="btnTaBortAnstalldHelt" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="cbSpecifikaKompetenser" min="-2" pref="180" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="btnVisaLevelSpecifikKompetens" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txtSpecifikLevel" min="-2" pref="40" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="btnTaBortKompetensAnstalld" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="lblFelmeddelandeTaBortKompetensUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="btnTaBortLevelUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="btnLaggTillLevelUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="btnLaggTillKompetensUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="txtNivåUppdateraAnstalld" min="-2" pref="138" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="lblFelmeddelandeNivaUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="btnTaBortPlattformUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="btnLaggTillPlattformUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtPlattformUppdateraAnstalld" min="-2" pref="138" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblFelmeddelandePlattformUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="btnTaBortKompetensUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="btnLaggTilKompetensUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="txtKompetensUppdateraAnstalld" min="-2" pref="138" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="lblFelmeddelandeKompetensUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="160" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbUpdEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnChooseEmpToUpd" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblEmpPicker" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblUpdName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtUpdName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnChangeName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandeUppdateraAnstalldNamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtUpdPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnChangePhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUpdPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandeUppdateraAnstalldTelefon" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtUpdMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUpdMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnChangeMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblSnabelAUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtHotmailUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPunktCom" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtPunktComUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandeUppdateraAnstalldEpost" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblBefintligEpost" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblBefintligMailUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbUpdComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUpdComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnTaBortKompetensUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnLaggTilKompetensUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandeKompetensUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtKompetensUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbUpdPlat" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblUpdPlat" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnTaBortPlattformUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnLaggTillPlattformUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandePlattformUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtPlattformUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbUpdEmpProj" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAssignProj" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnTaBortLevelUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnLaggTillLevelUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNivåUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandeNivaUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnLaggTillKompetensUppdateraAnstalld" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbBefintligaKompetenser" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblBefintligaKompetenser" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnVisaSpecifikKompetens" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnVisaLevelSpecifikKompetens" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtSpecifikLevel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnTaBortKompetensAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblFelmeddelandeTaBortKompetensUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cbSpecifikaKompetenser" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblUppdateraProjektledareUppdateraAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioProjektledareUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnÄndraRollAnstalld" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jRadioUppdateraRollNej" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblNuvarandeStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblNuvarandeStatusResultat" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnTaBortAnstalldHelt" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="23" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblUpdName">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Namn:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtUpdName">
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtUpdPhone">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUpdPhone">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Telefon:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtUpdMail">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUpdMailActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUpdMail">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="E-post:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUpdComp">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUpdPlat">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUpdEmpProj">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="5">
+                            <StringItem index="0" value="1"/>
+                            <StringItem index="1" value="2"/>
+                            <StringItem index="2" value="3"/>
+                            <StringItem index="3" value="4"/>
+                            <StringItem index="4" value="5"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbUpdEmpProjActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUpdPlat">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Plattformar:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblAssignProj">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Niv&#xe5;:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnLaggTillKompetensUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="L&#xe4;gg till"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillKompetensUppdateraAnstalldMouseClicked"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLaggTillKompetensUppdateraAnstalldActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbUpdEmp">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnChooseEmpToUpd">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="V&#xe4;lj"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnChooseEmpToUpdMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblEmpPicker">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="V&#xe4;lj anst&#xe4;lld att uppdatera:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnChangeName">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnChangeNameMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnChangePhone">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnChangePhoneMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnChangeMail">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnChangeMailMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUpdComp">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Kompetensomr&#xe5;den:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtKompetensUppdateraAnstalld">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="txtKompetensUppdateraAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtPlattformUppdateraAnstalld">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPlattformUppdateraAnstalldActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtNiv&#xe5;UppdateraAnstalld">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbBefintligaKompetenser">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblBefintligaKompetenser">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Befintliga kompetenser:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnTaBortKompetensUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortKompetensUppdateraAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnLaggTilKompetensUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="+"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTilKompetensUppdateraAnstalldMouseClicked"/>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="btnLaggTilKompetensUppdateraAnstalldItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnTaBortPlattformUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortPlattformUppdateraAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnLaggTillPlattformUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="+"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillPlattformUppdateraAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnTaBortLevelUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="-"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortLevelUppdateraAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnLaggTillLevelUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="+"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillLevelUppdateraAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnVisaSpecifikKompetens">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Visa mer"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnVisaSpecifikKompetensMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbSpecifikaKompetenser">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnVisaLevelSpecifikKompetens">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Visa niv&#xe5;"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnVisaLevelSpecifikKompetensMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtSpecifikLevel">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnTaBortKompetensAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ta bort"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortKompetensAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblUppdateraProjektledareUppdateraAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Projektledare:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="jRadioProjektledareUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ja"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jRadioProjektledareUppdateraMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblBefintligEpost">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Befintlig e-post:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblBefintligMailUppdateraAnstalld">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblSnabelAUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="@"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtHotmailUppdatera">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtHotmailUppdateraActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblPunktCom">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="."/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtPunktComUppdatera">
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblNuvarandeStatus">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Nuvarande roll:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblNuvarandeStatusResultat">
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btn&#xc4;ndraRollAnstalld">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn&#xc4;ndraRollAnstalldMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeUppdateraAnstalldNamn">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeUppdateraAnstalldTelefon">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeUppdateraAnstalldEpost">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeKompetensUppdateraAnstalld">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandePlattformUppdateraAnstalld">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeNivaUppdateraAnstalld">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeTaBortKompetensUppdateraAnstalld">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="jRadioUppdateraRollNej">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Nej"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jRadioUppdateraRollNejMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnTaBortAnstalldHelt">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ta bort anst&#xe4;lld helt"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortAnstalldHeltMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Plattform">
+                <Property name="tabTitle" type="java.lang.String" value="Plattform"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="L&#xe4;gg till">
+                    <Property name="tabTitle" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblNewPlatProd" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblNewPlatBesk" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblNewPlatBen" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtNewPlatBen" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane3" pref="373" max="32767" attributes="0"/>
+                                      <Component id="txtNewPlatProd" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblFelmeddelandeLaggTillPlattformBenamning" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFelmeddelandeLaggTillPlattformBeskrivning" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblFelmeddelandeLaggTillPlattformProducent" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="266" max="-2" attributes="0"/>
+                                  <Component id="btnAddNewPlat" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="442" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblNewPlatBen" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNewPlatBen" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeLaggTillPlattformBenamning" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblNewPlatBesk" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" pref="146" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeLaggTillPlattformBeskrivning" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblNewPlatProd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNewPlatProd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeLaggTillPlattformProducent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Component id="btnAddNewPlat" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="146" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblNewPlatBen">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ben&#xe4;mning:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtNewPlatBen">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblNewPlatBesk">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Beskrivning:"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtNewPlatBesk">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="lblNewPlatProd">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Producent:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtNewPlatProd">
+                </Component>
+                <Component class="javax.swing.JButton" name="btnAddNewPlat">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnAddNewPlatMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeLaggTillPlattformBenamning">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeLaggTillPlattformBeskrivning">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeLaggTillPlattformProducent">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Uppdatera">
+                    <Property name="tabTitle" type="java.lang.String" value="Uppdatera"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="lblUpdPlatProd" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblUpdPlatBesk" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblUpdPlatBen" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblChoosePlatUpd" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="btnUpdatePlatform" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="99" max="32767" attributes="0"/>
+                                  <Component id="btnTaBortPlattform" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cbCurrentPlats" max="32767" attributes="0"/>
+                              <Component id="txtUpdPlatBen" max="32767" attributes="0"/>
+                              <Component id="jScrollPane4" pref="271" max="32767" attributes="0"/>
+                              <Component id="txtUpdPlatProd" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnSelectedPlatUpd" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeUppdateraPlattformBenaming" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeUppdateraPlattformBeskrivning" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeUppdateraPlattformProducent" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="386" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblChoosePlatUpd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbCurrentPlats" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnSelectedPlatUpd" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblUpdPlatBen" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtUpdPlatBen" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeUppdateraPlattformBenaming" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblUpdPlatBesk" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane4" min="-2" pref="155" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeUppdateraPlattformBeskrivning" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="22" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblUpdPlatProd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtUpdPlatProd" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeUppdateraPlattformProducent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnUpdatePlatform" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnTaBortPlattform" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblChoosePlatUpd">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="V&#xe4;lj plattform att uppdatera:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbCurrentPlats">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnSelectedPlatUpd">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="OK"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnSelectedPlatUpdMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblUpdPlatBen">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ny ben&#xe4;mning:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtUpdPlatBen">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUpdPlatBenActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblUpdPlatBesk">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ny beskrivning:"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtUpdPlatBesk">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="lblUpdPlatProd">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ny producent:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtUpdPlatProd">
+                </Component>
+                <Component class="javax.swing.JButton" name="btnUpdatePlatform">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Uppdatera"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnUpdatePlatformMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeUppdateraPlattformBenaming">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeUppdateraPlattformBeskrivning">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeUppdateraPlattformProducent">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnTaBortPlattform">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ta bort helt"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortPlattformMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Kunskapsdom&#xe4;n">
+                <Property name="tabTitle" type="java.lang.String" value="Kunskapsdom&#xe4;n"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel7">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="L&#xe4;gg till">
+                    <Property name="tabTitle" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="lblBeskrivningKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblBenamningKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jScrollPane1" pref="418" max="32767" attributes="0"/>
+                              <Component id="txtBenamningKunskapsdomän" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblFelmeddelandeBeskrivningKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeBenämningKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="692" max="32767" attributes="0"/>
+                          <Component id="btnLaggTillKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblFelmeddelandeBenämningKunskapsdomän" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblBenamningKunskapsdomän" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtBenamningKunskapsdomän" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblBeskrivningKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="152" max="-2" attributes="0"/>
+                              <Component id="lblFelmeddelandeBeskrivningKunskapsdomän" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                          <Component id="btnLaggTillKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="231" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblBenamningKunskapsdom&#xe4;n">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ben&#xe4;mning:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtBenamningKunskapsdom&#xe4;n">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblBeskrivningKunskapsdom&#xe4;n">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Beskrivning:"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="txtABeskrivningKunskapsdom&#xe4;n">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JButton" name="btnLaggTillKunskapsdom&#xe4;n">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="L&#xe4;gg till"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnLaggTillKunskapsdom&#xe4;nMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeBen&#xe4;mningKunskapsdom&#xe4;n">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblFelmeddelandeBeskrivningKunskapsdom&#xe4;n">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="0" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel8">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Uppdatera">
+                    <Property name="tabTitle" type="java.lang.String" value="Uppdatera"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="962" max="32767" attributes="0"/>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="517" max="32767" attributes="0"/>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel10">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="553" max="32767" attributes="0"/>
+                              <Component id="btnTaBortHeltKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblBeskrivningKunskapsdomänUppdatera" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblBenamningKunskapsdomänUppdatera" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblVäljKunskapsdomänUppdatera" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cbVäljKunskapsdomänUppdatera" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane2" alignment="0" pref="418" max="32767" attributes="0"/>
+                                  <Component id="txtBenamningKunskapsdomänUppdatera" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="btnÄndraBenämningKompetensdomänUppdatera" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblFelmeddelandeBeskrivningKunskapsdomänUppdatera" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblFelmeddelandeBenämningKunskapsdomänUppdatera" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="btnÄndraBeskrivningKompetensdomänUppdatera" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnVäljKompetensdomänUppdatera" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cbVäljKunskapsdomänUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblVäljKunskapsdomänUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnVäljKompetensdomänUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblFelmeddelandeBenämningKunskapsdomänUppdatera" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="lblBenamningKunskapsdomänUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtBenamningKunskapsdomänUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnÄndraBenämningKompetensdomänUppdatera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblBeskrivningKunskapsdomänUppdatera" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" alignment="0" min="-2" pref="152" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="lblFelmeddelandeBeskrivningKunskapsdomänUppdatera" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnÄndraBeskrivningKompetensdomänUppdatera" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="btnTaBortHeltKunskapsdomän" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="60" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="lblBenamningKunskapsdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ben&#xe4;mning:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="txtBenamningKunskapsdom&#xe4;nUppdatera">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtBenamningKunskapsdom&#xe4;nUppdateraActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblBeskrivningKunskapsdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Beskrivning:"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="txtABeskrivningKunskapsdom&#xe4;nUppdatera">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="btnTaBortHeltKunskapsdom&#xe4;n">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Ta bort helt"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTaBortHeltKunskapsdom&#xe4;nMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeBen&#xe4;mningKunskapsdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="33" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblFelmeddelandeBeskrivningKunskapsdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="33" green="0" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="cbV&#xe4;ljKunskapsdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="lblV&#xe4;ljKunskapsdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="V&#xe4;lj dom&#xe4;n:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btn&#xc4;ndraBen&#xe4;mningKompetensdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn&#xc4;ndraBen&#xe4;mningKompetensdom&#xe4;nUppdateraMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btn&#xc4;ndraBeskrivningKompetensdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn&#xc4;ndraBeskrivningKompetensdom&#xe4;nUppdateraMouseClicked"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="btnV&#xe4;ljKompetensdom&#xe4;nUppdatera">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="V&#xe4;lj"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnV&#xe4;ljKompetensdom&#xe4;nUppdateraMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
